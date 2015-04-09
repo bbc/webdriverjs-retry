@@ -10,15 +10,8 @@
     "selenium"
   ],
   "author": "Julie Ralph <ju.ralph@gmail.com>",
-  "peerDependencies": {
-    "selenium-webdriver": "2.45.1"
-  },
   "devDependencies": {
     "minijasminenode": "~0.2.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/juliemr/webdriverjs-retry.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/minijasminenode test/*.js"
